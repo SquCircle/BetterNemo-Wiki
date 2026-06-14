@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "BetterNemo-Wiki",
   description: "nothing...",
+  base: "/BetterNemo-Wiki/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
