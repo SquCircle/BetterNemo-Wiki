@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "BetterNemo-Wiki"
-  text: "nothing..."
-  tagline: My great project tagline
+  name: "BetterNemo Wiki"
+  text: "更好的Nemo"
+  tagline: 第三方Nemo优化客户端
   actions:
     - theme: brand
       text: Markdown Examples
