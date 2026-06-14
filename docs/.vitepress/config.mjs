@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "BetterNemo-Wiki",
-  description: "nothing...",
-  base: "/BetterNemo-Wiki/",
+  title: "BetterNemo Wiki",
+  description: "更好的Nemo",
+  base: "/wiki/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
