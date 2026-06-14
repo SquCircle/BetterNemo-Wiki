@@ -12,15 +12,14 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: generateSidebar({
+      // 扫描 'docs' 文件夹下的内容，生成侧边栏
+      scanStartPath: 'docs',
+      // 允许侧边栏分组折叠
+      collapsed: true, 
+      // 支持从文件的 h1 标题自动提取侧边栏文字
+      useTitleFromFileHeading: true, 
+    }),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
