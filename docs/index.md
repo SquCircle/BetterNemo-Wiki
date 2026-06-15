@@ -8,18 +8,11 @@ hero:
   tagline: 第三方Nemo优化客户端
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /examples/markdown-examples
+      text: 开始使用
+      link: /
     - theme: alt
-      text: API Examples
-      link: /examples/api-examples
+      text: Gitee
+      link: https://gitee.com/oldsquaw/better-nemo
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
