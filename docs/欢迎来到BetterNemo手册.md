@@ -39,3 +39,13 @@
 注：**BetterNemo Online**  为原 **BetterNemoPC**
 
 ##   Q: 如何使用扩展
+
+**   A:** 详见 [扩展 → 自定义扩展](/扩展/自定义扩展) 或 [扩展详解](/扩展/开发/扩展详解)
+
+##   Q: 新版编辑器 (Webview) 相比旧版 (Native) 有什么区别？
+
+**   A:** 新版使用 Web 技术渲染积木界面（类似网页），旧版使用 Android 原生渲染。新版支持更多扩展功能、更灵活的 UI 定制，但部分旧版扩展可能不兼容。详见 [通讯协议 → Native ↔ Webview](/通讯协议/nemo-native-webview)
+
+##   Q: BetterNemo Online 和桌面版/移动版有什么不同？
+
+**   A:** [BetterNemo Online](/BN%20Online/README) 是 Web 版本，无需安装即可在浏览器中使用，支持加载/保存 .json 和 .bcmbn 格式作品，内置 Monaco JSON 编辑器。但云功能（角色管理、作品分享等）尚未实现。
