@@ -10,8 +10,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "SquCircle",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "vitepress": "^1.6.4",
