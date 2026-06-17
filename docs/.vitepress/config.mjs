@@ -9,8 +9,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: 'BN 手册', link: '/欢迎来到BetterNemo手册' }
     ],
 
     sidebar: generateSidebar({
@@ -23,7 +23,7 @@ export default defineConfig({
     }),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/BetterNemo-Team/wiki' }
     ]
   }
 })
