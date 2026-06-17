@@ -5,7 +5,7 @@ import { generateSidebar } from 'vitepress-sidebar'
 export default defineConfig({
   title: "BetterNemo Wiki",
   description: "更好的Nemo",
-  base: "/wiki/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
